@@ -5,13 +5,14 @@ This repository contains a simple web application for semantic search using Flas
 ## Setup
 
 ### Requirements
+
 ```bash
 Python 3.6+
 Flask
 Pandas
 Sentence Transformers
 Numpy
-Faiss
+Faiss```
 
 
 ## Installation
