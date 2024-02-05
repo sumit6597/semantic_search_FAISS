@@ -24,7 +24,7 @@ This repository contains a simple web application for semantic search using Flas
 
 1. **Run the Flask application:**
     ```bash
-    python app.py
+    python run.py
     ```
 
 2. **Open your web browser and navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/).**
@@ -35,7 +35,7 @@ This repository contains a simple web application for semantic search using Flas
 
 ## Project Structure
 
-- **app.py:** Flask application script containing routes for home page and search functionality.
+- **run.py:** Flask application script containing routes for home page and search functionality.
 - **templates:** HTML templates for rendering the web pages.
 - **cache:** Folder to store cached models and data.
 - **dense_vectors.pkl:** Cached dense vectors of document embeddings.
