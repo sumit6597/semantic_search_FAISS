@@ -2,18 +2,6 @@
 
 This repository contains a simple web application for semantic search using Flask, Sentence Transformers, and Faiss. The application allows users to input a query, and it retrieves the most relevant documents from a preprocessed dataset.
 
-## Setup
-
-### Requirements
-
-```bash
-Python 3.6+
-Flask
-Pandas
-Sentence Transformers
-Numpy
-Faiss```
-
 
 ## Installation
 
