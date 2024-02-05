@@ -7,13 +7,13 @@ from sentence_transformers import InputExample
 import os
 import pickle
 
-app = Flask(__name__, template_folder='/Users/sumitkumar/Desktop/semantic-search/templates')
+app = Flask(__name__, template_folder='PATH to templates folder')
 
 cache_dir = "./cache"
 if not os.path.exists(cache_dir):
     os.makedirs(cache_dir)
 
-path = "/Users/sumitkumar/Desktop/semantic-search/Gesund.csv"
+path = "path to CSV"
 pdf = pd.read_csv(path)
 pdf["id"] = pdf.index
 pdf_subset = pdf.head(1000)
