@@ -1,4 +1,4 @@
-# Semantic Search with Flask and Sentence Transformers
+# Semantic Search with FAISS and Sentence Transformers
 
 This repository contains a simple web application for semantic search using Flask, Sentence Transformers, and Faiss. The application allows users to input a query, and it retrieves the most relevant documents from a preprocessed dataset.
 
