@@ -7,8 +7,8 @@ This repository contains a simple web application for semantic search using Flas
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/semantic-search-flask.git
-    cd semantic-search-flask
+    git clone <SSH/HTTPS>
+    cd <dir>
     ```
 
 2. **Install dependencies:**
