@@ -33,21 +33,4 @@ This repository contains a simple web application for semantic search using Flas
 
 4. **View the search results, including the most relevant documents based on semantic similarity.**
 
-## Project Structure
-
-- **run.py:** Flask application script containing routes for home page and search functionality.
-- **templates:** HTML templates for rendering the web pages.
-- **cache:** Folder to store cached models and data.
-- **dense_vectors.pkl:** Cached dense vectors of document embeddings.
-- **faiss_index.index:** Cached Faiss index for fast similarity search.
-- **Gesund.csv:** Example dataset (replace with your own dataset).
-- **requirements.txt:** List of Python dependencies.
-
-## Implementation Details
-
-- The application uses the Sentence Transformers library to encode text into dense vectors.
-- Faiss is employed to create an index for efficient similarity search.
-- The provided dataset (Gesund.csv) is preprocessed, and the script caches document embeddings and the Faiss index for faster retrieval.
-- Users can input queries through the web interface, and the application returns the most relevant documents based on semantic similarity.
-
 Feel free to customize the code according to your specific use case and dataset.
