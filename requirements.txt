@@ -1,0 +1,5 @@
+Flask
+Pandas
+Sentence Transformers
+Numpy
+Faiss
